@@ -292,9 +292,10 @@ Structure data for reporting and develop relevant analytical measures where requ
 **4. Analysis & Visualization**  
 Explore trends, compare categories, and present metrics through clear visualizations.
 
-**5. Reporting & Communication**  
-Organize information into accessible reports that support further investigation and informed discussion.
-----
+### 5. Reporting & Communication
+
+Organize information into clear, accessible reports that support further investigation, data-driven decisions, and informed discussion.
+
 ---
 
 Thank you for visiting my portfolio.
