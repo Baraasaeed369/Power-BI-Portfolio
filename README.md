@@ -1,213 +1,211 @@
 # Data Analytics & Business Intelligence Portfolio
 
-**Power BI | SQL | DAX | Data Modeling | Business Intelligence**
+**Power BI | SQL | DAX | Power Query | Data Modeling | Business Analytics**
 
-Welcome to my Data Analytics portfolio. This repository showcases selected projects focused on transforming data into meaningful insights through analytical reporting, KPI development, interactive dashboards, and business-focused data visualization.
-
-My work explores business performance, sales analytics, human resources reporting, and international trade analysis, demonstrating how structured data analysis can support informed decision-making.
+I build data-driven reports and interactive dashboards that transform raw data into structured, decision-oriented insights. This portfolio presents selected projects across international trade, sales performance, e-commerce, and human resources, demonstrating analytical problem-solving, KPI reporting, data visualization, and business-focused reporting.
 
 ---
 
-## Featured Project
-
-# 01. Dual Dependency Gap: Egypt’s Import Dependency & Trade Risk Analysis
+## 01. Dual Dependency Gap | Egypt’s Import Dependency & Trade Risk Analysis
 
 ![Egypt's Import Dependency Dashboard](Egypt%E2%80%99s%20Import%20Dependency.png)
 
 ### Project Overview
 
-An analytical project investigating Egypt’s import dependency and exposure to international trade disruptions, with particular focus on the Russia–Ukraine war and its implications for selected commodity imports.
+An international trade analytics project examining Egypt’s import dependency and potential exposure to external supply disruptions, with a focus on the Russia–Ukraine war and its implications for selected commodity groups.
 
-Using historical trade data, the project explores import patterns, supplier concentration, and potential vulnerabilities in international sourcing. Power BI visualizations provide a structured way to examine trade dependency and investigate potential risks.
+### Business Context
 
-### Business Objectives
-- Examine Egypt’s reliance on international suppliers for selected commodities.
-- Compare import patterns before and after February 2022.
-- Explore supplier concentration and potential exposure to external trade shocks.
-- Present complex trade information through clear analytical visualizations.
+Concentration in import sources can expose countries to external shocks and supply-chain disruptions. This project explores historical import patterns to help assess dependency, supplier concentration, and changes in trade following a major geopolitical event.
 
 ### Analytical Scope
-- **Time Period:** 2019–2025
-- **Commodity Groups:** Food grains, fertilizers, iron and steel, and other selected commodities.
-- **Historical Comparison:** Trade patterns before and after the start of the Russia–Ukraine war in February 2022.
-- **Concentration Analysis:** Supplier concentration and the Herfindahl–Hirschman Index (HHI).
 
-### Methodology
-- Prepared and transformed trade data using Power Query.
-- Structured data to support analysis across countries, commodities, and time periods.
-- Applied DAX calculations to support analytical measures and KPI reporting.
-- Developed Power BI visualizations to explore import patterns and supplier dependency.
-- Used concentration analysis to investigate the distribution of imports across suppliers.
+- Analyzed historical trade data covering 2019–2025.
+- Examined selected food grains, fertilizers, iron and steel, and other commodities included in the dataset.
+- Compared import patterns before and after February 2022.
+- Explored supplier concentration using the Herfindahl–Hirschman Index (HHI).
+- Developed interactive Power BI visualizations to examine trade values, prices, market shares, and dependency patterns where available.
 
-### Business Value
+### Tools & Techniques
 
-Demonstrates the application of data analytics and business intelligence to a real-world economic question, combining historical comparisons, trade analysis, and supplier concentration methods to investigate import dependency and potential trade vulnerabilities.
+Power BI · Power Query · DAX · Data Modeling · Trade Data Analysis · Concentration Analysis · Data Visualization
 
-**Tools & Skills:** Power BI · Power Query · DAX · Data Modeling · Trade Data Analysis · Supplier Concentration Analysis · Data Visualization
+### Analytical Value
+
+Demonstrates how business intelligence techniques can be applied to international trade data to investigate import dependency and explore potential supply-chain vulnerabilities.
 
 ---
 
-## 02. Sales Data Analysis Dashboard
+## 02. Sales Data Analysis | Performance & KPI Reporting
 
 ![Sales Data Analysis Dashboard](dashboard1.png)
 
 ### Project Overview
 
-An interactive sales dashboard designed to monitor business performance and explore sales patterns across time, locations, managers, payment methods, and online revenue.
-
-The report combines key performance indicators with supporting visualizations to provide a consolidated view of sales activity.
+An interactive sales performance dashboard consolidating core business metrics and enabling analysis across time, geography, sales management, and payment channels.
 
 ### Key Performance Indicators
 
-| Metric | Value |
+| Metric | Reported Value |
 |---|---:|
 | Total Revenue | 769.52K |
 | Total Quantity | 117.00K |
 | Total Orders | 254 |
 
 ### Business Questions
-- How does sales performance change over time?
-- How do sales results vary across cities and managers?
-- What is the distribution of payment methods?
-- How does online revenue contribute to reported sales performance?
+
+- How does sales performance evolve over time?
+- How do reported sales results vary across cities and managers?
+- What is the distribution of transactions across payment methods?
+- How is online revenue represented within the overall sales report?
 
 ### Analytical Approach
-- Presented core business metrics through KPI cards.
-- Explored monthly sales trends.
-- Compared sales performance across cities and managers.
+
+- Structured headline KPIs to provide an at-a-glance view of reported performance.
+- Visualized monthly sales trends to support time-based comparisons.
+- Compared sales across cities and managers.
 - Examined payment methods and online revenue.
-- Organized visualizations and filters to support interactive data exploration.
+- Incorporated interactive filters to support focused exploration of the report.
 
-### Business Value
+### Tools & Techniques
 
-Demonstrates how sales data can be transformed into an interactive reporting view that supports performance monitoring, comparison across business segments, and exploration of sales patterns.
+Power BI · KPI Design · Sales Performance Analysis · Trend Analysis · Interactive Reporting · Data Visualization
 
-**Tools & Skills:** Power BI · KPI Reporting · Sales Analysis · Trend Analysis · Data Visualization · Interactive Reporting
+### Analytical Value
+
+Demonstrates the design of a consolidated reporting experience that enables users to explore sales performance across multiple business dimensions.
 
 ---
 
-## 03. HR Analytics Dashboard
+## 03. HR Analytics | Workforce Distribution & Reporting
 
 ![HR Analytics Dashboard](HR-Dashboard.png)
 
 ### Project Overview
 
-A human resources dashboard designed to organize workforce-related information and support exploration of employee distribution across available HR categories.
-
-The report uses multiple visualizations and interactive filters to make workforce data easier to review and compare.
+An HR reporting dashboard designed to organize workforce data and explore employee distribution across departments, job designations, companies, gender, and employment status.
 
 ### Business Questions
+
 - How is the workforce distributed across departments?
-- How do employee counts vary by job designation and company?
-- What patterns appear in the available gender and employment-status categories?
-- How can HR information be explored through interactive reporting?
+- How do employee counts vary across job designations and companies?
+- What patterns are visible across gender and employment-status categories?
+- How can interactive reporting make workforce information easier to explore?
 
 ### Analytical Approach
-- Compared employee counts across departments.
-- Examined employment-status distribution.
-- Explored employee and company counts across available categories.
-- Used bar, column, pie, and line charts to present categorical comparisons.
-- Incorporated filters to support focused data exploration.
 
-### Business Value
+- Organized workforce information into visual summaries.
+- Compared employee counts across available organizational categories.
+- Examined the distribution of employment status and gender.
+- Used categorical charts to support comparisons across workforce dimensions.
+- Incorporated interactive filters to enable more focused analysis.
 
-Demonstrates the use of data visualization to structure HR information, compare workforce categories, and make employee-related data easier to explore.
+### Tools & Techniques
 
-**Tools & Skills:** Power BI · HR Analytics · Data Visualization · Categorical Analysis · Interactive Filtering · Reporting
+Power BI · HR Reporting · Workforce Analysis · Categorical Analysis · Interactive Filtering · Data Visualization
+
+### Analytical Value
+
+Demonstrates how workforce data can be structured into an interactive reporting interface to support exploration and comparison of HR information.
 
 ---
 
-## 04. E-Commerce Sales Dashboard
+## 04. E-Commerce Analytics | Sales, Profitability & Order Monitoring
 
 ![E-Commerce Sales Dashboard](Sales-Dashboad.png)
 
 ### Project Overview
 
-An e-commerce reporting dashboard focused on presenting sales-related performance indicators, product-level comparisons, payment-method distribution, and time-based trends.
-
-The report combines KPI cards and visualizations to help users explore sales activity and profitability-related measures.
+An e-commerce dashboard bringing together selected sales, profit, order-status, product-category, payment-method, and time-based metrics for interactive performance monitoring.
 
 ### Key Metrics
-- **Total Profit:** $179,144
-- **Cancelled Orders:** 15
+
+| Metric | Reported Value |
+|---|---:|
+| Total Profit | $179,144 |
+| Cancelled Orders | 15 |
 
 ### Business Questions
-- How is product activity distributed across the categories shown?
-- How do sales-related values change over time?
-- Which payment methods appear most frequently in the available data?
-- What do the reported profit and cancelled-order metrics indicate about performance?
+
+- How are the displayed product categories represented in the report?
+- How do sales-related metrics vary over time?
+- How are payment methods distributed across the available data?
+- How can profit and cancelled orders be monitored alongside other reported metrics?
 
 ### Analytical Approach
+
 - Presented key metrics through KPI cards.
-- Compared product categories using charts.
-- Explored monthly and yearly patterns.
-- Used payment-method and product-related visualizations to examine sales activity.
-- Applied available filters to support focused analysis.
+- Used visual comparisons to explore product categories.
+- Examined monthly and yearly patterns represented in the dashboard.
+- Analyzed payment-method distribution.
+- Used available filters to support focused exploration of the data.
 
-### Business Value
+### Tools & Techniques
 
-Demonstrates the use of Power BI to bring e-commerce metrics and product comparisons into a single reporting view, making business data easier to explore.
+Power BI · E-Commerce Reporting · KPI Monitoring · Product Analysis · Time-Based Analysis · Interactive Filtering
 
-**Tools & Skills:** Power BI · E-Commerce Analytics · KPI Reporting · Product Analysis · Trend Visualization · Interactive Filtering
+### Analytical Value
+
+Demonstrates the use of interactive reporting to bring together e-commerce metrics and explore product, payment, and order-related patterns.
 
 ---
 
-## 05. Sales Analytics Dashboard
+## 05. Sales Analytics | Customer, Product & Business Performance
 
-![Sales Analytics Dashboard](Sales-Dashboard%20%282%29.png)
+![Sales Dashboard — Customer, Product & Performance Analysis](Sales-Dashboard%20%282%29.png)
 
 ### Project Overview
 
-A Power BI dashboard project focused on presenting business data through a structured visual reporting interface.
+An interactive sales dashboard designed to explore business performance across the customer, product, order, and other dimensions represented in the report.
 
-The report demonstrates dashboard organization and the use of visualizations to support exploration of the available data.
+### Analytical Focus
 
-### Analytical Approach
-- Organizes business information into a visual reporting layout.
-- Presents data through charts and report elements.
-- Supports comparison and exploration of the available categories.
-- Demonstrates the application of dashboard design principles to business reporting.
+- Review the sales and order-related metrics displayed in the dashboard.
+- Explore customer and product performance through the available visualizations.
+- Compare results across the geographic or categorical dimensions included in the report.
+- Examine revenue- and profit-related measures where displayed.
+- Use visual reporting to explore performance across multiple business dimensions.
 
-### Business Value
+### Tools & Techniques
 
-Demonstrates the ability to organize business data into a visual report that can help users review information and explore performance-related patterns.
+Power BI · Sales Analytics · KPI Reporting · Data Exploration · Data Visualization
 
-**Tools & Skills:** Power BI · Dashboard Development · Data Visualization · Business Reporting · Analytical Presentation
+### Analytical Value
+
+Demonstrates the use of dashboard-based reporting to consolidate sales information and enable structured exploration of business performance.
 
 ---
 
 ## Technical Skills
 
-| Area | Skills |
+| Area | Technologies & Techniques |
 |---|---|
 | Business Intelligence | Power BI, Interactive Dashboards, KPI Reporting |
-| Data Analysis | Trend Analysis, Performance Monitoring, Business Insights |
-| Data Transformation | Power Query, Data Cleaning |
-| Calculations | DAX Measures, KPI Calculations |
+| Data Querying | SQL, JOINs, GROUP BY, Filtering and Aggregation |
+| Data Transformation | Power Query, Data Cleaning, Data Preparation |
+| Analytical Calculations | DAX Measures, KPI Calculations |
 | Data Modeling | Data Relationships, Analytical Data Structures |
-| Querying | SQL, JOINs, GROUP BY |
-| Data Visualization | Dashboard Design, Visual Reporting, Data Presentation |
+| Data Analysis | Trend Analysis, Category Comparisons, Performance Monitoring |
+| Data Visualization | Dashboard Design, Visual Reporting, Interactive Filters |
 
 ---
 
 ## Analytical Workflow
 
-**1. Define the Objective** — Understand the business question and identify the information required.
+**1. Business Understanding**  
+Define the analytical question, business context, and reporting requirements.
 
-**2. Prepare the Data** — Clean, transform, and organize data for analysis.
+**2. Data Preparation**  
+Inspect, clean, transform, and organize available data for analysis.
 
-**3. Analyze the Data** — Explore trends, compare categories, and calculate relevant metrics.
+**3. Data Modeling & Calculations**  
+Structure data for reporting and develop relevant analytical measures where required.
 
-**4. Develop the Dashboard** — Present findings through structured visualizations and KPIs.
+**4. Analysis & Visualization**  
+Explore trends, compare categories, and present metrics through clear visualizations.
 
-**5. Communicate Insights** — Make results clear and accessible to support informed decisions.
+**5. Reporting & Communication**  
+Organize findings into accessible reports that support further investigation and informed discussion.
 
 ---
-
-## Professional Interests
-
-Data Analyst · Power BI Analyst · BI Analyst · Business Intelligence Analyst
-
----
-
-Thank you for visiting my portfolio.
+Thank you for reviewing my portfolio.
