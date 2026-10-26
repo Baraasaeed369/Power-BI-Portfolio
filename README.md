@@ -1,4 +1,21 @@
 # Sales Data Analysis Dashboard
+# Dual Dependency Gap
+## Egypt’s Import Dependency & Trade Risk Analysis
+
+A Power BI analytics project investigating Egypt’s reliance on imports and its exposure to global trade disruptions, with a focus on the Russia–Ukraine war.
+
+### Key Analytical Areas
+- Import dependency across selected commodities.
+- Trade patterns before and after February 2022.
+- Supplier concentration and trade vulnerability.
+- Interactive KPIs and comparative analysis.
+
+### Tools & Skills
+Power BI | DAX | Power Query | Data Modeling | Trade Data Analysis
+
+### Dashboard Preview
+
+![Egypt’s Import Dependency Dashboard](Egypt%E2%80%99s%20Import%20Dependency.png)
 
 ## Project Overview
 This project uses Microsoft Power BI to visualize sales performance and explore business data across multiple cities, products, managers, and payment methods.
@@ -27,24 +44,7 @@ This project uses Microsoft Power BI to visualize sales performance and explore 
 ![Sales Data Analysis Dashboard](dashboard1.png)
 # Featured Power BI Projects
 
-## 2. Egypt’s Import Dependency & Trade Risk Analysis
 
-**Business Context**
-
-This project examines Egypt’s import dependency and exposure to international trade disruptions, with a focus on the Russia–Ukraine war.
-
-**Analytical Focus**
-- Analyze import dependency across selected commodities.
-- Examine trade patterns before and after major global disruptions.
-- Explore supplier concentration and potential trade vulnerabilities.
-
-**Tools & Skills:** Power BI · Data Modeling · DAX · Power Query · KPI Development · Trade Data Analysis
-
-**Dashboard Preview**
-
-![Egypt's Import Dependency Dashboard](Egypt%E2%80%99s%20Import%20Dependency.png)
-
----
 
 ## 3. Human Resources Analytics Dashboard
 
