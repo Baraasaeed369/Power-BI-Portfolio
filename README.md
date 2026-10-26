@@ -25,11 +25,6 @@ This project uses Microsoft Power BI to visualize sales performance and explore 
 ## Dashboard Preview
 
 ![Sales Data Analysis Dashboard](dashboard1.png)
-
-## Project Objective
-To present sales data in a clear, interactive format that helps users monitor performance, compare results, and explore sales patterns.
----
-
 # Featured Power BI Projects
 
 ## 2. Egypt’s Import Dependency & Trade Risk Analysis
