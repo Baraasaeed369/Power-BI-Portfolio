@@ -84,7 +84,7 @@ A business intelligence dashboard focused on presenting sales performance in a c
 
 ---
 
-## 5. Sales Analytics Dashboard — Additional Project
+## 5. Sales Analytics Dashboard 
 
 **Business Context**
 
