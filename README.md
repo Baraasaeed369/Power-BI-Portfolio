@@ -2,265 +2,137 @@
 
 **Power BI | SQL | DAX | Power Query | Data Modeling | Business Analytics**
 
-This portfolio showcases data analytics and business intelligence projects focused on international trade, sales performance, inventory management, e-commerce, and human resources.
+Welcome to my Data Analytics and Business Intelligence portfolio. This repository showcases projects focused on data analysis, dashboard development, inventory monitoring, and business insights using Power BI and SQL.
 
-The projects demonstrate practical applications of data querying, analytical calculations, KPI reporting, data visualization, and interactive dashboard development to explore business questions and support data-informed decisions.
+## Projects
 
----
+### 01. Dual Dependency Gap — Egypt’s Import Dependency & Trade Risk Analysis
 
-## 01. Dual Dependency Gap | Egypt’s Import Dependency & Trade Risk Analysis
+**Tools:** Power BI, Power Query, DAX, Data Modeling
 
-![Egypt's Import Dependency Dashboard](Egypt%E2%80%99s%20Import%20Dependency.png)
+This project examines Egypt’s import dependency and trade concentration across food grains, fertilizers, and iron and steel from 2019 to 2025, with a focus on trade patterns before and after February 2022.
 
-### Project Overview
+**Key Insights**
+- **Wheat Import Dependency:** Wheat emerged as a key commodity in the import dependency analysis.
+- **Trade Risk Assessment:** The project examines Egypt’s exposure to potential supply disruptions across selected commodity groups.
+- **Period Comparison:** Trade patterns are compared before and after February 2022 to investigate changes following the Russia–Ukraine war.
 
-An international trade analytics project examining Egypt’s import dependency and potential exposure to external supply disruptions, with a focus on the Russia–Ukraine war and its implications for selected commodity groups.
+**Dashboard Preview**
 
-### Business Objectives
-
-- Examine import dependency across selected commodity groups.
-- Compare import patterns before and after February 2022.
-- Explore supplier concentration and potential exposure to external trade disruptions.
-- Investigate historical trade values, prices, and market-share patterns where available.
-
-### Analytical Approach
-
-- Analyzed historical trade data covering 2019–2025.
-- Examined selected food grains, fertilizers, iron and steel, and other commodities included in the project.
-- Compared trade patterns before and after February 2022.
-- Explored supplier concentration using the Herfindahl–Hirschman Index (HHI).
-- Developed Power BI visualizations to explore trade patterns and potential vulnerabilities.
-
-### Tools & Skills
-
-Power BI · Power Query · DAX · Data Modeling · Trade Data Analysis · Concentration Analysis · Data Visualization
-
-### Project Value
-
-Demonstrates the application of business intelligence techniques to an economic question involving import dependency, supplier concentration, and potential trade risks.
+![Egypt Import Dependency](./Egypt%E2%80%99s%20Import%20Dependency.png)
 
 ---
 
-## 02. Sales Data Analysis | Performance & KPI Reporting
+### 02. Sales Data Analysis Dashboard
 
-![Sales Data Analysis Dashboard](dashboard1.png)
+**Tools:** Power BI, Data Visualization
 
-### Project Overview
+This dashboard provides an overview of sales performance through revenue, quantity, order volume, and breakdowns by time, city, manager, and payment method.
 
-An interactive sales dashboard designed to monitor key performance indicators and explore sales patterns across locations, managers, payment methods, and time periods.
+**Key Metrics**
+- **Total Revenue:** 769.52K
+- **Total Quantity:** 117.00K
+- **Total Orders:** 254
 
-### Key Performance Indicators
+**Key Insights**
+- **Top-Performing City:** Lisbon recorded the highest sales among the cities analyzed.
+- **Top-Performing Manager:** João e Silva achieved the highest sales among the managers analyzed.
+- **Peak Sales Month:** December recorded the highest sales during the analyzed period.
+- **Preferred Payment Method:** Credit card was the most frequently used payment method.
 
-| Metric | Reported Value |
-|---|---:|
-| Total Revenue | 769.52K |
-| Total Quantity | 117.00K |
-| Total Orders | 254 |
+**Dashboard Preview**
 
-### Business Questions
-
-- How does sales performance change over time?
-- How do reported sales results vary across cities and managers?
-- How are payment methods distributed?
-- How is online revenue represented in the report?
-
-### Analytical Approach
-
-- Presented core metrics through KPI cards.
-- Explored monthly sales trends.
-- Compared sales across cities and managers.
-- Examined payment method distribution and online revenue.
-- Used interactive filters to support data exploration.
-
-### Tools & Skills
-
-Power BI · KPI Reporting · Sales Analysis · Trend Analysis · Data Visualization · Interactive Reporting
-
-### Project Value
-
-Demonstrates how interactive dashboards can consolidate business metrics and help users explore performance across multiple dimensions.
+![Sales Data Analysis Dashboard](./dashboard1.png)
 
 ---
 
-## 03. SQL Inventory Analysis | Stock Monitoring & Replenishment
+### 03. SQL Inventory Analysis — Stock Monitoring & Replenishment
 
-**Project file:** [supply_chain_inventory.sql](./supply_chain_inventory.sql)
+**Tools:** SQL
 
-### Project Overview
+This project analyzes sample inventory data to identify low-stock products, calculate inventory value, compare product categories, and rank items by stock quantity.
 
-A SQL-based inventory analysis project designed to examine stock availability, identify products below their defined reorder levels, and calculate inventory value across products and categories.
+**Key Insights**
+- **Low-Stock Products:** Five products were identified as having stock below their reorder levels.
+- **Inventory Valuation:** The total inventory value was calculated using stock quantities and unit prices, reaching 221,000 in the sample dataset.
+- **Stock Monitoring:** Products were ranked by stock quantity to help identify items with relatively low inventory levels.
+- **Category Analysis:** Product counts were compared across Electronics and Furniture.
 
-### Business Objectives
+**SQL Techniques:** `SELECT`, `WHERE`, `SUM`, `GROUP BY`, `ORDER BY`, and calculated expressions.
 
-- Identify products with stock quantities below their reorder thresholds.
-- Calculate total inventory value using available stock quantities and unit prices.
-- Compare product counts across inventory categories.
-- Rank products by stock quantity.
-- Calculate and compare stock value at the individual product level.
-
-### Analytical Approach
-
-- Created and populated a structured inventory table.
-- Retrieved inventory records for inspection.
-- Applied conditional filtering to identify products below their reorder levels.
-- Used aggregate calculations to estimate total inventory value.
-- Grouped products by category to summarize the inventory mix.
-- Calculated product-level stock values and sorted results for comparison.
-
-### SQL Techniques
-
-- `CREATE TABLE` and `INSERT INTO` for table creation and sample data loading.
-- `SELECT` to retrieve inventory records.
-- `WHERE` to filter products below reorder levels.
-- `SUM()` to calculate total inventory value.
-- `COUNT()` and `GROUP BY` to summarize products by category.
-- `ORDER BY` to sort products by quantity and calculated stock value.
-- Calculated expressions to derive stock value from quantity and unit price.
-
-### Tools & Skills
-
-SQL · Inventory Analysis · Stock Monitoring · Conditional Filtering · Aggregate Functions · Data Sorting · Replenishment Analysis
-
-### Project Value
-
-Demonstrates how SQL can be used to flag products below defined stock thresholds and summarize inventory value to support stock monitoring and replenishment decisions.
-
-*Note: This project uses sample data and does not represent live inventory or actual business outcomes.*
+[View SQL Inventory Analysis](./supply_chain_inventory.sql)
 
 ---
 
-## 04. E-Commerce Analytics | Sales, Profitability & Order Monitoring
+### 04. E-Commerce Sales Dashboard
 
-![E-Commerce Sales Dashboard](Sales-Dashboad.png)
+**Tools:** Power BI, Data Visualization
 
-### Project Overview
+This dashboard explores e-commerce sales performance, product categories, payment methods, and sales trends over time.
 
-An e-commerce dashboard bringing together selected sales, profit, order-status, product-category, payment-method, and time-based metrics for interactive performance monitoring.
+**Key Metrics**
+- **Total Profit:** $179,144
+- **Cancelled Orders:** 15
 
-### Key Metrics
+**Key Insights**
+- **Top-Performing Product Category:** Shoes recorded the highest sales among the product categories analyzed.
+- **Peak Sales Month:** February recorded the highest sales during the analyzed period.
+- **Preferred Payment Method:** Cash on Delivery was the most frequently used payment method.
 
-| Metric | Reported Value |
-|---|---:|
-| Total Profit | $179,144 |
-| Cancelled Orders | 15 |
+**Dashboard Preview**
 
-### Business Questions
-
-- How are product categories represented in the report?
-- How do sales-related metrics vary over time?
-- How are payment methods distributed across the available data?
-- How can profit and cancelled orders be monitored alongside other metrics?
-
-### Analytical Approach
-
-- Presented key metrics through KPI cards.
-- Compared product categories through visualizations.
-- Explored monthly and yearly patterns.
-- Examined payment-method distribution.
-- Used available filters to support focused analysis.
-
-### Tools & Skills
-
-Power BI · E-Commerce Reporting · KPI Monitoring · Product Analysis · Trend Visualization · Interactive Filtering
-
-### Project Value
-
-Demonstrates the use of interactive reporting to explore e-commerce metrics, product categories, payment methods, and order-related patterns.
+![E-Commerce Sales Dashboard](./Sales-Dashboad.png)
 
 ---
 
-## 05. HR Analytics | Workforce Distribution & Reporting
+### 05. HR Analytics Dashboard
 
-![HR Analytics Dashboard](HR-Dashboard.png)
+**Tools:** Power BI, Data Visualization, Interactive Filters
 
-### Project Overview
+This dashboard explores workforce distribution across departments, employment status, gender, companies, and job designations.
 
-A human resources dashboard designed to explore workforce distribution across departments, job designations, companies, gender, and employment status.
+**Key Analytical Areas**
+- **Workforce Distribution:** Explore employee distribution across departments, companies, and job titles.
+- **Employment Status:** Review workforce composition by employment status.
+- **Workforce Demographics:** Examine employee distribution by gender.
+- **Interactive Analysis:** Use dashboard filters to explore workforce segments and compare distributions.
 
-### Business Questions
+**Dashboard Preview**
 
-- How is the workforce distributed across departments?
-- How do employee counts vary across job designations and companies?
-- How is the workforce distributed across gender and employment-status categories?
-- How can interactive reporting make workforce information easier to explore?
-
-### Analytical Approach
-
-- Organized workforce information into visual summaries.
-- Compared employee counts across available organizational categories.
-- Examined employment-status and gender distribution.
-- Used categorical charts to support comparisons.
-- Incorporated interactive filters for focused exploration.
-
-### Tools & Skills
-
-Power BI · HR Reporting · Workforce Analysis · Categorical Analysis · Interactive Filtering · Data Visualization
-
-### Project Value
-
-Demonstrates how workforce data can be structured into an interactive reporting interface to support exploration and comparison of HR information.
+![HR Analytics Dashboard](./HR-Dashboard.png)
 
 ---
 
-## 06. Sales Analytics | Customer, Product & Business Performance
+### 06. Sales Dashboard — Customer & Product Analysis
 
-![Sales Dashboard — Customer, Product & Performance Analysis](Sales-Dashboard%20%282%29.png)
+**Tools:** Power BI, Data Visualization
 
-### Project Overview
+This dashboard explores sales performance over time and across products, helping identify peak sales periods and leading products in the analyzed dataset.
 
-An interactive sales dashboard designed to explore business performance across customer, product, order, and other dimensions represented in the report.
+**Key Insights**
+- **Peak Sales Month:** November recorded the highest sales during the analyzed period.
+- **Top Product:** DOTCOM POSTAGE was the leading product based on the dashboard’s sales analysis.
 
-### Analytical Focus
+**Dashboard Preview**
 
-- Review the sales and order-related metrics displayed in the dashboard.
-- Explore customer and product performance through available visualizations.
-- Compare results across geographic or categorical dimensions included in the report.
-- Examine revenue- and profit-related measures where displayed.
-- Use visual reporting to explore performance across business dimensions.
-
-### Tools & Skills
-
-Power BI · Sales Analytics · KPI Reporting · Data Exploration · Data Visualization
-
-### Project Value
-
-Demonstrates the use of dashboard-based reporting to consolidate sales information and enable structured exploration of business performance.
+![Sales Dashboard — Customer and Product Analysis](./Sales-Dashboard%20%282%29.png)
 
 ---
 
-## 07. SQL Product Analysis | Aggregation & Category Insights
+### 07. SQL Product Analysis — Aggregation & Category Insights
 
-**Project file:** [sales_analysis.sql](./sales_analysis.sql)
+**Tools:** SQL
 
-### Project Overview
+This project uses a sample product catalog to explore product prices, compare categories, and calculate basic summary statistics.
 
-A SQL project focused on querying and analyzing product data to summarize catalog characteristics, compare product categories, and examine product prices.
+**Key Insights**
+- **Highest-Priced Product:** Laptop was the most expensive product in the sample dataset, priced at 15,000.
+- **Category Comparison:** Products were grouped by category to compare product counts and average prices.
+- **Price Analysis:** The average product price was calculated to summarize pricing across the sample catalog.
 
-### Analytical Objectives
+**SQL Techniques:** `CREATE TABLE`, `INSERT INTO`, `SELECT`, `COUNT`, `AVG`, `GROUP BY`, and `ORDER BY`.
 
-- Retrieve and inspect product records.
-- Calculate the total number of products.
-- Calculate the average product price.
-- Compare product counts and average prices across categories.
-- Sort products by price to identify the highest-priced items.
-
-### SQL Techniques
-
-- `CREATE TABLE` and `INSERT INTO` to create and populate the sample dataset.
-- `SELECT` to retrieve records and specific columns.
-- `COUNT()` and `AVG()` for aggregate calculations.
-- `GROUP BY` to summarize data by category.
-- `ORDER BY` to sort products by price.
-
-### Tools & Skills
-
-SQL · Data Aggregation · Grouping · Sorting · Basic Data Analysis
-
-### Project Value
-
-Demonstrates foundational SQL skills for querying structured data, summarizing product information, and comparing prices across product categories.
-
-*Note: This project analyzes sample product data rather than actual sales transactions.*
+[View SQL Product Analysis](./sales_analysis.sql)
 
 ---
 
@@ -268,33 +140,21 @@ Demonstrates foundational SQL skills for querying structured data, summarizing p
 
 | Category | Skills |
 |---|---|
-| Business Intelligence | Power BI, Interactive Dashboards, KPI Reporting |
-| Querying | SQL, SELECT, WHERE, JOINs, GROUP BY, Aggregate Functions |
-| Data Transformation | Power Query, Data Cleaning, Data Preparation |
-| Analytical Calculations | DAX Measures, KPI Calculations |
-| Data Modeling | Data Relationships, Analytical Data Structures |
-| Data Analysis | Trend Analysis, Category Comparisons, Performance Monitoring |
-| Data Visualization | Dashboard Design, Visual Reporting, Interactive Filters |
-
----
+| Business Intelligence | Power BI, Dashboard Development, Data Visualization |
+| Data Analysis | KPI Monitoring, Trend Analysis, Comparative Analysis |
+| Data Transformation | Power Query, Data Cleaning |
+| Data Modeling | Relationships, Analytical Data Models |
+| Calculations | DAX Measures |
+| Querying | SQL, Filtering, Aggregation, Sorting |
+| Reporting | Business Reporting, Data-Driven Insights |
 
 ## Analytical Workflow
 
-**1. Business Understanding**  
-Define the analytical question, business context, and reporting requirements.
-
-**2. Data Preparation**  
-Inspect, clean, transform, and organize available data for analysis.
-
-**3. Data Modeling & Calculations**  
-Structure data for reporting and develop relevant analytical measures where required.
-
-**4. Analysis & Visualization**  
-Explore trends, compare categories, and present metrics through clear visualizations.
-
-### 5. Reporting & Communication
-
-Organize information into clear, accessible reports that support further investigation, data-driven decisions, and informed discussion.
+1. **Data Collection:** Identify and gather the relevant data sources.
+2. **Data Cleaning & Transformation:** Prepare data for analysis by checking structure, consistency, and quality.
+3. **Data Modeling:** Organize tables and relationships to support analysis.
+4. **Analysis & Visualization:** Explore trends, compare performance, and build dashboards using relevant metrics.
+5. **Reporting & Communication:** Organize information into clear, accessible reports that support further investigation, data-driven decisions, and informed discussion.
 
 ---
 
