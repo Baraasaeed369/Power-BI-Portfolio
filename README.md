@@ -6,24 +6,9 @@ Welcome to my Data Analytics and Business Intelligence portfolio. This repositor
 
 ## Projects
 
-### 01. Dual Dependency Gap — Egypt’s Import Dependency & Trade Risk Analysis
-
-**Tools:** Power BI, Power Query, DAX, Data Modeling
-
-This project examines Egypt’s import dependency and trade concentration across food grains, fertilizers, and iron and steel from 2019 to 2025, with a focus on trade patterns before and after February 2022.
-
-**Key Insights**
-- **Wheat Import Dependency:** Wheat emerged as a key commodity in the import dependency analysis.
-- **Trade Risk Assessment:** The project examines Egypt’s exposure to potential supply disruptions across selected commodity groups.
-- **Period Comparison:** Trade patterns are compared before and after February 2022 to investigate changes following the Russia–Ukraine war.
-
-**Dashboard Preview**
-
-![Egypt Import Dependency](./Egypt%E2%80%99s%20Import%20Dependency.png)
-
 ---
 
-### 02. Sales Data Analysis Dashboard
+### 01. Sales Data Analysis Dashboard
 
 **Tools:** Power BI, Data Visualization
 
@@ -46,7 +31,7 @@ This dashboard provides an overview of sales performance through revenue, quanti
 
 ---
 
-### 03. SQL Inventory Analysis — Stock Monitoring & Replenishment
+### 02. SQL Inventory Analysis — Stock Monitoring & Replenishment
 
 **Tools:** SQL
 
@@ -64,7 +49,7 @@ This project analyzes sample inventory data to identify low-stock products, calc
 
 ---
 
-### 04. E-Commerce Sales Dashboard
+### 03. E-Commerce Sales Dashboard
 
 **Tools:** Power BI, Data Visualization
 
@@ -85,7 +70,7 @@ This dashboard explores e-commerce sales performance, product categories, paymen
 
 ---
 
-### 05. HR Analytics Dashboard
+### 04. HR Analytics Dashboard
 
 **Tools:** Power BI, Data Visualization, Interactive Filters
 
@@ -103,7 +88,7 @@ This dashboard explores workforce distribution across departments, employment st
 
 ---
 
-### 06. Sales Dashboard — Customer & Product Analysis
+### 05. Sales Dashboard — Customer & Product Analysis
 
 **Tools:** Power BI, Data Visualization
 
@@ -119,7 +104,7 @@ This dashboard explores sales performance over time and across products, helping
 
 ---
 
-### 07. SQL Product Analysis — Aggregation & Category Insights
+### 06. SQL Product Analysis — Aggregation & Category Insights
 
 **Tools:** SQL
 
